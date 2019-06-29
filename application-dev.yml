@@ -1,7 +1,9 @@
-server:
-  port: 3344
-  
+server: 
+  port: 8201 
 spring:
-  application:
-    name:  microservicecloud-config-dev
- 
+  application: 
+    name: microservicecloud-config-client
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://eureka-dev.com:7001/eureka/
