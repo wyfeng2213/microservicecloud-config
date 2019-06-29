@@ -1,7 +1,7 @@
 server:
-  port: 3344
+  port: 8201
   
 spring:
   application:
-    name:  microservicecloud-config-dev
+    name:  microservicecloud-config-client
  
