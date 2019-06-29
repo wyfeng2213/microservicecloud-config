@@ -1,7 +1,11 @@
 server:
-  port: 3344
+  port: 8202
   
 spring:
   application:
-    name:  microservicecloud-config-test
+    name:  microservicecloud-config-client
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+       defaultZone: http://eureka7001.com:7001/eureka/
  
